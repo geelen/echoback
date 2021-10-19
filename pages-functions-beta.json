@@ -1,4 +1,4 @@
 {
-  "entryPoint": "./worker.js",
+  "entryPoint": "./worker.mjs",
   "baseURL": "/"
 }

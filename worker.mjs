@@ -8,6 +8,7 @@ export default {
     }
 
     const payload = {
+      change: "HELLO LIVE DEMO",
       headers,
       url,
       method,

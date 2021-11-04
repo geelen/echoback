@@ -8,7 +8,7 @@ export default {
     }
 
     const payload = {
-      change: "HELLO LIVE DEMO",
+      change: "HELLO NEW CONSTANT SCRIPT ID",
       headers,
       url,
       method,

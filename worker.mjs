@@ -1,5 +1,5 @@
 export default {
-  async fetch(request) {
+  async fetch(request, env) {
     const { url, method } = request
     const headers = {}
 
@@ -11,6 +11,7 @@ export default {
       change: "HELLO NEW CONSTANT SCRIPT ID",
       headers,
       url,
+      envs: Object.keys(env),
       method,
       body: await request.text(),
       cf: request.cf

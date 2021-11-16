@@ -1,7 +1,7 @@
 var crypto = require("crypto");
 var fs = require('fs')
 
-var id = crypto.randomBytes(1 * 1 * 1024).toString('base64');
+var id = crypto.randomBytes(512 * 1024).toString('base64');
 
 const contents = `
 const ID = \`${id}\`

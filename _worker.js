@@ -25,7 +25,7 @@ export default {
       envs: Object.keys(env),
       do_response: "Durable Object 'A' count: " + count,
       kv_response,
-      change: "HELLO NEW CONSTANT SCRIPT ID",
+      change: "hmmm",
       headers,
       url,
       method,

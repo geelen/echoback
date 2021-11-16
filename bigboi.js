@@ -8,7 +8,7 @@ const ID = \`${id}\`
 
 export default {
     async fetch() {
-        return new Response(ID.length)
+        return new Response('' + ID.length)
     }
 }
 `

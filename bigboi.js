@@ -18,3 +18,5 @@ if (!fs.existsSync('dist')) {
 }
 
 fs.writeFileSync('dist/_worker.js', contents)
+
+console.log(`Wrote a file of ${constants.length} bytes.`)
